@@ -1,0 +1,129 @@
+/*initiqlisation */
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+.logo-petshop {
+  width: 10%;
+  height: 10%;
+  padding: 2% 45% 0 45%;
+}
+.main-menu {
+  display: flex;
+  justify-content: space-around;
+  color: rgb(0, 0, 0);
+}
+.main-menu a {
+  color: white;
+}
+#menu {
+  background-color: rgb(0, 0, 0);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  box-shadow: rgb(97, 99, 100) 0px 0px 5px 0px;
+  overflow: hidden;
+}
+/*images*/
+.harnais,
+.arbre,
+.royalcanin,
+.laisse,
+.baignoire,
+.aire,
+.cage,
+.abreuvoir {
+  width: 350px;
+  height: 350px;
+}
+
+/*chien*/
+#chien {
+  display: flex;
+  margin: 2% 8%;
+}
+
+#bchien {
+  display: flex;
+}
+
+.laisses,
+.harnaiss {
+  width: 400px;
+  height: 400px;
+  padding: 10% 15%;
+}
+
+.chienharnais h4 {
+  text-align: justify;
+}
+.laisses h4 {
+  text-align: justify;
+}
+
+/*chat*/
+#chat {
+  display: flex;
+  margin: 0 8%;
+}
+
+#bchat {
+  display: flex;
+}
+.croquette-chat,
+.arbres {
+  width: 400px;
+  height: 400px;
+  padding: 10% 15%;
+  justify-content: space-between;
+}
+
+.arbres h4,
+.croquette-chat h4 {
+  text-align: justify;
+}
+
+/*oiseau*/
+#oiseau {
+  display: flex;
+  margin: 0 8%;
+}
+
+#boiseau {
+  display: flex;
+}
+.baignoires,
+.aires {
+  width: 400px;
+  height: 400px;
+  padding: 10% 15%;
+  justify-content: space-between;
+}
+
+.aires h4,
+.baignoires h4 {
+  text-align: justify;
+}
+
+/*rongeur*/
+#rongeur {
+  display: flex;
+  margin: 0 8%;
+}
+
+#brongeur {
+  display: flex;
+}
+.cages,
+.abreuvoirs {
+  width: 400px;
+  height: 400px;
+  padding: 10% 15%;
+  justify-content: space-between;
+}
+
+.cages h4,
+.abreuvoirs h4 {
+  text-align: justify;
+}

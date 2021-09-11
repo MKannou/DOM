@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- head section -->
+    <header id="head">
+      <img class="logo-petshop" src="./assets/logo.jpg" alt="petshop" />
+      <nav id="menu">
+        <ul class="main-menu">
+          <li><a href="#chien">Chiens</a></li>
+          <li><a href="#chat">chats</a></li>
+          <li><a href="#oiseau">oiseaux</a></li>
+          <li><a href="#rongeur">Rongeurs</a></li>
+        </ul>
+      </nav>
+    </header>
+    <br /><br />
+    <!-- main section -->
+    <main id="main">
+      <div class="products">
+        <section id="chien">
+          <h1>CHIENS</h1>
+          <br /><br />
+          <div id="bchien">
+            <div class="harnaiss">
+              <img src="./assets/harnais.jpg" class="harnais" />
+              <div class="chienharnais">
+                <h2>Harnais JULIUS-K9® Power, anthracite pour chien</h2>
+
+                <h4>
+                  Harnais pour chien, réfléchissant et résistant à l'eau, conçu
+                  à l'origine pour un usage professionnel avec des chiens
+                  policiers ou de sauvetage, doublure respirante et douce pour
+                  la peau, en polyester et coton
+                </h4>
+                <h1>20DT</h1>
+                <div class="slider-vertical"></div>
+                <div id="purhcaseFormharnais">
+                  <form id="purchaseharnais">
+                    <br />
+                    Quantité <br />
+                    <input
+                      type="button"
+                      name="subtract"
+                      onclick='Total("qty",-1,"total",20);'
+                      value="-"
+                    />
+                    <input
+                      type="text"
+                      name="qty"
+                      id="qty"
+                      readonly="true"
+                      value="0"
+                    />
+                    <input
+                      type="button"
+                      name="add"
+                      onclick='Total("qty",1,"total",20);'
+                      value="+"
+                    />
+                    <input type="text" name="total" id="total" value="0" />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="laisses">
+              <img src="./assets/laisse.jpg" class="laisse" />
+              <div>
+                <h2>Laisse flexi Giant XL pour chien</h2>
+                <h4>
+                  Laisse flexi Giant XL avec dérouleur de 8 m, convient
+                  particulièrement aux chiens puissants et de grande taille
+                  (plus de 50 kg). Facile d'utilisation.
+                </h4>
+                <h1>30DT</h1>
+                <div id="purhcaseFormlaisse">
+                  <form id="purchaselaisse">
+                    <br />
+                    Quantité <br />
+                    <input
+                      type="button"
+                      name="subtract"
+                      onclick='Total("qtyl",-1,"totall",30);'
+                      value="-"
+                    />
+                    <input
+                      type="text"
+                      name="qtyl"
+                      id="qtyl"
+                      readonly="true"
+                      value="0"
+                    />
+                    <input
+                      type="button"
+                      name="add"
+                      onclick='Total("qtyl",1,"totall",30);'
+                      value="+"
+                    />
+                    <input type="text" name="totall" id="totall" value="0" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <section id="chat">
+          <h1>CHATS</h1>
+          <br /><br />
+          <div id="bchat">
+            <div class="croquette-chat">
+              <img src="./assets/royalcanin.jpg" class="royalcanin" />
+              <div>
+                <h2>Royal Canin Sterilised 37 pour chat</h2>
+                <h4>
+                  Croquettes Royal Canin Sterilised 37 pour chats castrés et
+                  stérilisés ayant tendance à l'embonpoint, apport énergétique
+                  contrôlé, ajout de L-carnitine pour les muscles et des voies
+                  urinaires saines.
+                </h4>
+                <h1>40DT</h1>
+                <div id="purhcaseFormcroquette">
+                  <form id="purchasecroquette">
+                    <br />
+                    Quantité <br />
+                    <input
+                      type="button"
+                      name="subtract"
+                      onclick='Total("qtyc",-1,"totalc",40);'
+                      value="-"
+                    />
+                    <input
+                      type="text"
+                      name="qtyc"
+                      id="qtyc"
+                      readonly="true"
+                      value="0"
+                    />
+                    <input
+                      type="button"
+                      name="add"
+                      onclick='Total("qtyc",1,"totalc",40);'
+                      value="+"
+                    />
+                    <input type="text" name="totalc" id="totalc" value="0" />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="arbres">
+              <img src="./assets/arbre.jpg" class="arbre" />
+              <div>
+                <h2>Arbre à chat Natural Paradise XL Standard gris clair</h2>
+                <h4>
+                  TRES BELLE QUALITE :"Montage très rapide et facile- En bois
+                  massif de haute qualité - Belles finitions - Adopté par notre
+                  chat adulte dès son deuxième jour d'arrivée chez nous qui se
+                  plait à y faire ses griffes
+                </h4>
+                <h1>70DT</h1>
+                <div id="purhcaseFormarbre">
+                  <form id="purchasearbre">
+                    <br />
+                    Quantité <br />
+                    <input
+                      type="button"
+                      name="subtract"
+                      onclick='Total("qtya",-1,"totala",70);'
+                      value="-"
+                    />
+                    <input
+                      type="text"
+                      name="qtya"
+                      id="qtya"
+                      readonly="true"
+                      value="0"
+                    />
+                    <input
+                      type="button"
+                      name="add"
+                      onclick='Total("qtya",1,"totala",70);'
+                      value="+"
+                    />
+                    <input type="text" name="totala" id="totala" value="0" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <section id="oiseau">
+          <h1>OISEAUX</h1>
+          <br /><br />
+          <div id="boiseau">
+            <div class="baignoires">
+              <img src="./assets/baignoire.jpg" class="baignoire" />
+              <div class="oiseaubaignoire">
+                <h2>Baignoire pour grande perruche</h2>
+                <h4>
+                  Dimensions de la baignoire pour grandes perruches : 23 x 15 x
+                  24 cm. La couleur du produit peut être différente de celle de
+                  l'illustration
+                </h4>
+                <h1>15DT</h1>
+                <div class="slider-vertical"></div>
+                <div id="purhcaseFormbaignoire">
+                  <form id="purchasebaignoire">
+                    <br />
+                    Quantité <br />
+                    <input
+                      type="button"
+                      name="subtract"
+                      onclick='Total("qtyb",-1,"totalb",15);'
+                      value="-"
+                    />
+                    <input
+                      type="text"
+                      name="qtyb"
+                      id="qtyb"
+                      readonly="true"
+                      value="0"
+                    />
+                    <input
+                      type="button"
+                      name="add"
+                      onclick='Total("qtyb",1,"totalb",15);'
+                      value="+"
+                    />
+                    <input type="text" name="totalb" id="totalb" value="0" />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="aires">
+              <img src="./assets/aire.jpg" class="aire" />
+              <div>
+                <h2>Aire de jeu en bois Trixie Natural Living pour perruche</h2>
+                <h4>
+                  Aire de jeu GÉNIALE ! :"Mes deux calopsittes l'adorent ! Elles
+                  s'éclatent vraiment. J'ai même accroché un morceau de carton
+                  avec une pince à linge et une ficelle, ça leur fait encore
+                  plus d'activités. Je recommande cet achat"
+                </h4>
+                <h1>30DT</h1>
+                <div id="purhcaseFormaire">
+                  <form id="purchaseaire">
+                    <br />
+                    Quantité <br />
+                    <input
+                      type="button"
+                      name="subtract"
+                      onclick='Total("qtyai",-1,"totalai",60);'
+                      value="-"
+                    />
+                    <input
+                      type="text"
+                      name="qtyai"
+                      id="qtyai"
+                      readonly="true"
+                      value="0"
+                    />
+                    <input
+                      type="button"
+                      name="add"
+                      onclick='Total("qtyai",1,"totalai",60);'
+                      value="+"
+                    />
+                    <input type="text" name="totalai" id="totalai" value="0" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br /><br /><br /><br /><br /><br /><br /><br />
+        <section id="rongeur">
+          <h1>RONGEURS</h1>
+          <br /><br />
+          <div id="brongeur">
+            <div class="cages">
+              <img src="./assets/cage.jpg" class="cage" />
+              <div class="oiseaubaignoire">
+                <h2>Cage Savic Heaven 80 pour hamster</h2>
+                <h4>
+                  Grande cage pour hamster, entièrement équipée avec 1 roue, des
+                  plates-formes, des toilettes, des abreuvoirs, des tunnels
+                  aérés, bac haut. Ne convient pas aux souris. Écart entre les
+                  barreaux : 9,5 mm
+                </h4>
+                <h1>150DT</h1>
+                <div class="slider-vertical"></div>
+                <div id="purhcaseFormcage">
+                  <form id="purchasecage">
+                    <br />
+                    Quantité <br />
+                    <input
+                      type="button"
+                      name="subtract"
+                      onclick='Total("qtyca",-1,"totalca",150);'
+                      value="-"
+                    />
+                    <input
+                      type="text"
+                      name="qtyca"
+                      id="qtyca"
+                      readonly="true"
+                      value="0"
+                    />
+                    <input
+                      type="button"
+                      name="add"
+                      onclick='Total("qtyca",1,"totalca",150);'
+                      value="+"
+                    />
+                    <input type="text" name="totalc" id="totalca" value="0" />
+                  </form>
+                </div>
+              </div>
+            </div>
+            <br />
+            <div class="abreuvoirs">
+              <img src="./assets/abreuvoir.jpg" class="abreuvoir" />
+              <div>
+                <h2>Abreuvoir biberon Classic pour rongeur</h2>
+                <h4>
+                  Abreuvoir biberon Classic, disponible en plusieurs tailles,
+                  fixation à la grille avec le fil de fer fourni.
+                </h4>
+                <h1>10DT</h1>
+                <div id="purhcaseFormabreuvoir">
+                  <form id="purchaseabreuvoir">
+                    <br />
+                    Quantité <br />
+                    <input
+                      type="button"
+                      name="subtract"
+                      onclick='Total("qtyab",-1,"totalab",10);'
+                      value="-"
+                    />
+                    <input
+                      type="text"
+                      name="qtyab"
+                      id="qtyab"
+                      readonly="true"
+                      value="0"
+                    />
+                    <input
+                      type="button"
+                      name="add"
+                      onclick='Total("qtyab",1,"totalab",10);'
+                      value="+"
+                    />
+                    <input type="text" name="totalab" id="totalab" value="0" />
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <script src="js/test.js"></script>
+  </body>
+</html>
